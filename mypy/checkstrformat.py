@@ -1,5 +1,5 @@
 """Expression type checker. This file is conceptually part of ExpressionChecker and TypeChecker."""
-
+"""Expression type checker"""
 import re
 
 from typing import cast, List, Tuple, Dict, Callable, Union, Optional
