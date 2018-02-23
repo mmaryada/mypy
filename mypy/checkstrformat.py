@@ -11,6 +11,7 @@ from mypy.nodes import (
     StrExpr, BytesExpr, UnicodeExpr, TupleExpr, DictExpr, Context, Expression, StarExpr
 )
 if False:
+    #Break impory cycle only needed for mypy
     # break import cycle only needed for mypy
     import mypy.checker
     import mypy.checkexpr
